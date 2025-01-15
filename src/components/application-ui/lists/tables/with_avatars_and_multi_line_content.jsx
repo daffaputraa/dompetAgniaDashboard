@@ -1,7 +1,7 @@
 const people = [
   {
     name: 'Lindsay Walton',
-    title: 'Front-end Developer',
+    title: 'Rp 3.000.000',
     department: 'Optimization',
     email: 'lindsay.walton@example.com',
     role: 'Member',
@@ -11,7 +11,7 @@ const people = [
   },
   {
     name: 'Lindsay Walton',
-    title: 'Front-end Developer',
+    title: 'Rp 3.000.000',
     department: 'Optimization',
     email: 'lindsay.walton@example.com',
     role: 'Member',
@@ -21,7 +21,7 @@ const people = [
   },
   {
     name: 'Lindsay Walton',
-    title: 'Front-end Developer',
+    title: 'Rp 3.000.000',
     department: 'Optimization',
     email: 'lindsay.walton@example.com',
     role: 'Member',
@@ -31,7 +31,7 @@ const people = [
   },
   {
     name: 'Lindsay Walton',
-    title: 'Front-end Developer',
+    title: 'Rp 3.000.000',
     department: 'Optimization',
     email: 'lindsay.walton@example.com',
     role: 'Member',
@@ -41,7 +41,7 @@ const people = [
   },
   {
     name: 'Lindsay Walton',
-    title: 'Front-end Developer',
+    title: 'Rp 3.000.000',
     department: 'Optimization',
     email: 'lindsay.walton@example.com',
     role: 'Member',
@@ -84,14 +84,14 @@ export default function Example() {
                     Name
                   </th>
                   <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
-                    Title
+                    Total Sedekah
                   </th>
                   <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
                     Status
                   </th>
-                  <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                  {/* <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
                     Role
-                  </th>
+                  </th> */}
                   {/* <th scope="col" className="relative py-3.5 pl-3 pr-4 sm:pr-0">
                     <span className="sr-only">Edit</span>
                   </th> */}
@@ -117,7 +117,7 @@ export default function Example() {
                     </td>
                     <td className="whitespace-nowrap px-3 py-5 text-sm text-gray-500">
                       <div className="text-gray-900">{person.title}</div>
-                      <div className="mt-1 text-gray-500">{person.department}</div>
+                      {/* <div className="mt-1 text-gray-500">{person.department}</div> */}
                     </td>
                     <td className="whitespace-nowrap px-3 py-5 text-sm text-gray-500">
                       <span className="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
