@@ -8,7 +8,8 @@ const DonorList = () => {
           Sedekah baru-baru ini
         </h2>
         <p className="card-description text-sm text-gray-500">
-          Berikut adalah daftar sedekah yang baru saja masuk:
+          Lorem ipsum dolor sit amet consectetur adipisicing elit quam corrupti
+          consectetur.
         </p>
       </div>
 
@@ -21,7 +22,7 @@ const DonorList = () => {
             {/* Informasi Detail */}
             <div className="flex flex-col gap-1 w-2/3">
               <h3 className="text-gray-800 font-medium truncate">
-                Firdan Umar
+                Kevin Pelatihan Ketat
               </h3>
               <h4 className="text-gray-500 text-xs">09-01-2025</h4>
             </div>

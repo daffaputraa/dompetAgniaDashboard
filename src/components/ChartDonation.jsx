@@ -1,4 +1,5 @@
 import React from "react";
+import { TrendingUp } from "lucide-react";
 import { Bar, BarChart, CartesianGrid, XAxis, Tooltip } from "recharts";
 
 const ChartDonation = () => {
@@ -15,7 +16,8 @@ const ChartDonation = () => {
           Analisis Sedekah
         </h2>
         <p className="card-description text-sm text-gray-500">
-          Menampilkan perbandingan jumlah sedekah setiap hari dalam satu bulan
+          Lorem ipsum dolor sit amet consectetur adipisicing elit quam corrupti
+          consectetur.
         </p>
       </div>
 
