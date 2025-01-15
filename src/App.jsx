@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import { Dashboard } from "./page"
+import { Dashboard, NotFound, Peringkat } from "./page"
 
 function App() {
 
@@ -8,6 +8,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" exact element={<Dashboard/>} />
+          <Route path="/peringkat" exact element={<Peringkat/>} />
+          <Route path="*" exact element={<NotFound/>} />
         </Routes>
       </Router>
     </>

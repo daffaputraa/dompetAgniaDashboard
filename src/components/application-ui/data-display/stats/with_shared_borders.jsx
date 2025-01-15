@@ -1,7 +1,7 @@
 import { ArrowDownIcon, ArrowUpIcon } from '@heroicons/react/20/solid'
 
 const stats = [
-  { name: 'Jumalah Donasi Bulan Ini', stat: 'Rp 10.000.000', previousStat: '70,946', change: '12%', changeType: 'increase' },
+  { name: 'Jumlah Sedekah ', stat: 'Rp 10.000.000', previousStat: '70,946', change: '12%', changeType: 'increase' },
   // { name: 'Total Sedekah Hari', stat: 'Rp 1.000.000', previousStat: '56.14%', change: '2.02%', changeType: 'increase' },
   { name: 'Rata-rata Sedekah per Transaksi', stat: 'Rp 1.020.000', previousStat: '28.62%', change: '4.05%', changeType: 'decrease' },
 ]

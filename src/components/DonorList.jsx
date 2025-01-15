@@ -3,9 +3,9 @@ import React from "react";
 const DonorList = () => {
   return (
     <div className="bg-white p-6 rounded-xl mt-5 lg:w-2/5 space-y-5">
-      <div className="card-header py-3">
-        <h2 className="card-title text-lg leading-6 font-medium text-gray-900">
-          Sedekah baru-baru ini
+      <div className="card-header py-3 flex flex-col gap-1">
+        <h2 className="card-title text-lg leading-6 font-medium text-gray-900 ">
+          Preview Sedekah
         </h2>
         <p className="card-description text-sm text-gray-500">
           Lorem ipsum dolor sit amet consectetur adipisicing elit quam corrupti

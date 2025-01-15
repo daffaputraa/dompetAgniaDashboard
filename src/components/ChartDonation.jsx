@@ -13,7 +13,7 @@ const ChartDonation = () => {
     <div className="card bg-white rounded-xl p-6 flex flex-col gap-2">
       <div className="card-header py-3">
         <h2 className="card-title text-lg leading-6 font-medium text-gray-900">
-          Analisis Sedekah
+          Statisik Sedekah
         </h2>
         <p className="card-description text-sm text-gray-500">
           Lorem ipsum dolor sit amet consectetur adipisicing elit quam corrupti
