@@ -8,8 +8,7 @@ const DonorList = () => {
           Sedekah baru-baru ini
         </h2>
         <p className="card-description text-sm text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit quam corrupti
-          consectetur.
+          Berikut adalah daftar sedekah yang baru saja masuk:
         </p>
       </div>
 
