@@ -2,18 +2,17 @@ import React from "react";
 
 const DonorList = () => {
   return (
-    <div className="bg-white p-6 rounded-xl mt-5 lg:w-2/5 space-y-5">
+    <div className="bg-white p-6 rounded-xl mt-5 lg:w-2/5 space-y-5 shadow">
       <div className="card-header py-3 flex flex-col gap-1">
         <h2 className="card-title text-lg leading-6 font-medium text-gray-900 ">
-          Preview Sedekah
+          Overview Sedekah
         </h2>
         <p className="card-description text-sm text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit quam corrupti
-          consectetur.
+          List overview sedekah baru-baru ini
         </p>
       </div>
 
-      <div className="flex flex-col divide-y max-h-[400px] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
+      <div className="flex flex-col divide-y max-h-[420px] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
         {Array.from({ length: 34 }).map((_, index) => (
           <div
             key={index}

@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import { Dashboard, NotFound, Peringkat } from "./page"
+import { Dashboard, Login, NotFound, Peringkat, ProtectedRoute } from "./page"
 
 function App() {
 
@@ -7,7 +7,10 @@ function App() {
     <>  
       <Router>
         <Routes>
-          <Route path="/" exact element={<Dashboard/>} />
+          <Route element={<ProtectedRoute/>}>
+            <Route path="/dashboard" element={<Dashboard />} />
+          </Route>
+          <Route path="/" exact element={<Login/>} />
           <Route path="/peringkat" exact element={<Peringkat/>} />
           <Route path="*" exact element={<NotFound/>} />
         </Routes>
