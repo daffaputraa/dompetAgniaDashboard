@@ -83,7 +83,7 @@ const ChartDonation = ({ data, periode, rentangWaktu, dateRange }) => {
                   fontSize={12}
                 />
                 <YAxis
-                  tickFormatter={(value) => `Rp ${(value / 1000000).toFixed(0)}M`}
+                  tickFormatter={(value) => `Rp ${(value / 1000000).toFixed(0)}JT`}
                   tickLine={false}
                   axisLine={false}
                   tickMargin={8}

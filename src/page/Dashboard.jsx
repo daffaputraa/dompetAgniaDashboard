@@ -141,6 +141,7 @@ const Dashboard = () => {
     }
 
     setChartData(data);
+    
     setDateRange({
       startDate,
       endDate,
@@ -163,7 +164,7 @@ const Dashboard = () => {
 
       <div className="flex flex-col lg:flex-row gap-6">
         <div className="lg:w-3/5 flex flex-col gap-6">
-          <DataDisplay dateRange={dateRange} />
+          <DataDisplay dateRange={dateRange} data={chartData} />
           <ChartDonation
             data={chartData}
             periode={periode}
